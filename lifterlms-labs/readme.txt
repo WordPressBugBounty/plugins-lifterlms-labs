@@ -1,13 +1,13 @@
 === LifterLMS Labs ===
-Contributors: lifterlms, chrisbadgett, strangerstudios, lifterlms, codeboxllc, brianhogg
+Contributors: chrisbadgett, strangerstudios, lifterlms, codeboxllc, brianhogg
 Donate link: https://lifterlms.com/
 Tags: lms, course, elearning, learning management system, quiz
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 5.3
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 
-Stable tag: 1.8.1
+Stable tag: 1.9.0
 
 A collection of experimental, conceptual, and possibly silly features which improve and enhance the functionality of the LifterLMS core.
 
@@ -55,6 +55,17 @@ Very quickly configure LifterLMS sidebars to work with your theme. [Documentatio
 
 
 == Changelog ==
+
+= v1.9.0 - 2026-06-18 =
+
+##### New Features
+
++ Added Divi 5 support to the Lifti lab so the `llms-enrolled-student-content` and `llms-non-enrolled-student-content` CSS classes show or hide builder content based on the current user's enrollment.
+
+##### Bug Fixes
+
++ Fixed stray empty paragraph tags being output on Divi 5 course, lesson, and membership pages built with the Lifti lab enabled.
+
 
 = v1.8.1 - 2024-12-12 =
 
@@ -136,15 +147,6 @@ Very quickly configure LifterLMS sidebars to work with your theme. [Documentatio
 + Simple Branding: Add branding overrides for LifterLMS instructor information cards
 + Simple Branding: Add branding overrides for LifterLMS 3.16.0 quiz styles and LifterLMS Advanced Quizzes styles
 + Simple Branding: Save default values in database & generate CSS when the lab is enabled.
-
-
-= v1.4.0 - 2017-09-05 =
-
-##### Simple Branding Updates
-
-+ Add support for LifterLMS notifications
-+ Set default colors for branding options. Fixes issues with invalid CSS when options aren't set after enabling the lab
-+ Make all branding color settings required
 
 
 [Read the full changelog](https://make.lifterlms.com/tag/lifterlms-labs)
